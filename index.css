@@ -22,6 +22,11 @@ body {
   background-color: var(--very-light-gray);
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
 h1 {
   color: var(--very-light-gray);
   font-family: 'Big Shoulders Display', sans-serif;
@@ -40,7 +45,6 @@ h1 {
   height: fit-content;
   width: 90%;
   max-width: 950px;
-  background-color: red;
   border-radius: 10px;
   overflow: hidden;
 }
