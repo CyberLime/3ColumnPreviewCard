@@ -23,8 +23,8 @@ body {
 }
 
 main {
-  display: flex;
-  justify-content: center;
+  width: 90%;
+  max-width: 950px;
 }
 
 h1 {
@@ -43,8 +43,7 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   height: fit-content;
-  width: 90%;
-  max-width: 950px;
+  width: 100%;
   border-radius: 10px;
   overflow: hidden;
 }
